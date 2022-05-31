@@ -1,4 +1,4 @@
-# Analise-de-importa-o-de-arquivos-do-Censo-de-Educa-o-Superior
+# Analise-de-importacao-de-arquivos-do-Censo-de-Educa-o-Superior
 Neste script será feito algumos considerações sobre retornos de erros comuns na Analise de importação de arquivos  do Censo de Educação Superior
 
 

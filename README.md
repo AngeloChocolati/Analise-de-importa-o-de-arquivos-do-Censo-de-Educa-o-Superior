@@ -56,10 +56,11 @@ secopresenc_2005 <- ("C:\\Users\\UFMT\\Downloads\\Avaliacao\\Dados\\2005_SECOMPL
 
    #  E) Leitura e importação, nesta etapa eu utilizei o pacote readr para ler os arquivos importados, 
    # lembrando que dentro do pacote readr tenho uma função para cada tipo de arquivo, de acordo como estão seperados em suas separações
-   # No caso abaixo usei read_tsv dados tabulados e read_fwf, p/ arquivos de posição fixa 
+   
+   # No caso abaixo usei "read_tsv" para dados tabulados e 
+   # "read_fwf", p/ arquivos de posição fixa. 
    
 library(readr)
-
 
    # 1996
 read_tsv(Grad_presenc_96)
@@ -118,8 +119,8 @@ saveRDS(secopresenc_2005, file = "C:\\Users\\UFMT\\Downloads\\Avaliacao\\seco_pr
 
 
     # H)   
-
-# 2005
+    
+    # 2005
 read_fwf(formdistanc_2005)
 read_fwf(formpresenc_2005)
 read_fwf(graddistanc_2005)
